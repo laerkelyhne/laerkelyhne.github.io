@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800,900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+html, body{
+        width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.container-content{
+    max-width: 1500px;
+    margin: 0 auto;  
+}
+
+.page-header{
+    min-height: 50vh;
+}
+
+.header-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    min-height: 100px;
+}
+
+.section-header h4{
+    font-weight: 100;
+    font-display: block;
+    margin: 0 10px 0 10px;
+}
+
+.section-header a h4:hover{
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    transform: scale(1.2);
+}
+
+.active h4{
+    font-size: 1em;
+    font-weight: 600;
+    color: #F6B9CB;
+    text-transform: uppercase;
+}
+
+.header-img{
+    background: #192535;
+}
+
+.my-portfolio{
+    padding: 0 0 30px 0px;
+}
+
+.portfolio-section{
+    background-color: #fff;
+}
+.subpage-section{
+    background-color: #fff;
+}
+
+.portfolio-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.portfolio-grid div {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 300px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.portfolio-grid div img:hover, .portfolio-grid .animation-card:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+
+.row-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1300px;
+}
+
+.row-img video{
+    max-width: 80%;
+    margin: 20px 0px 20px 0;
+}
+
+
+
+.row-img div{
+    text-align: center;
+    color: white;
+    line-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.one-img div{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 10px 0 10px;
+}
+
+.two-img div {
+    max-width: 600px;
+    min-width: 400px;
+    height: auto;
+    margin: 10px;
+}
+
+.three-img div {
+    height: auto;
+    width: 400px;
+    margin: 10px;
+}
+
+.flexImg{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+}
+
+.flexImg img {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    align-items: center;
+}
+
+.animation-box svg{
+    vertical-align: middle;
+}
+
+.section-intro {
+    padding: 80px 0 30px 0;
+}
+.section-intro h1{
+    text-align: center;
+}
+
+.section-intro .text{
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+    
+.section-intro .text p{
+    max-width: 60%;
+    margin: 25px 0 5px 0;
+    text-align: center;
+}
+
+
+/** 
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  .page-header, .header-row {
+    height: calc(1024px/2);
+    justify-content: center;
+  }
+    
+    .parallax {
+        height: 1024px;
+    }
+}
+
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  .page-header, .header-row {
+    height: calc(768px/2);
+    justify-content: center;
+    }
+        
+    .parallax {
+        height: 1024px;
+    }
+}
+
+
+
+/**
+ * iPhone 5v                     
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  .page-header, .header-row {
+    height: calc(500px/2);
+    justify-content: center;
+  }
+        
+    .parallax {
+        height: 500px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .header-row:nth-child(2){
+        font-size: 1em!important;
+        line-height: 2em;    
+        flex-grow: 1;    
+    }
+    
+/*
+    .two-img div {
+        height: 200px;
+        width: 300px;
+    }
+*/
+    .hide-mobile{
+        display:none;
+    }
+    .row-img video{
+        height: 227px;
+    }
+}
+
+@media all and (min-width: 769px){
+    .only-mobile{
+        display:none;
+    }
+}
+
+@media all and (max-width: 1024px){
+    .header-row{
+        justify-content: center;
+    }
+}
+
+.parallax-frontpage{
+    background-image: url("Media/im_laerke-01.svg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.parallax-subpage{
+    height: 40vh;
+    background-size: auto 50%;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center 5%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    top: -1px;
+}
+
+#im{
+    position: absolute;
+    bottom: -10px;
+    max-width: 2000px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*
+
+@media screen and (min-width: 1025px) and (max-width: 1600px){
+    .parallax-subpage {
+    background-size: auto 70%!important;
+    }
+}
+*/
+
+@media only screen 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .parallax {
+        background-attachment:scroll;
+        background-position: center top;
+        background-size: cover;
+    }
+    #im{
+        width: 200%;
+        left: -40%;
+        overflow: hidden;
+    }
+    .parallax-subpage{
+        height: 30vh;
+    }
+    .page-header {
+        min-height: 30vh !important;
+    }
+}
+
+/*NAVBAR*/
+
+.navbar-blue{
+    background-color: #1f1948;
+}
+.navbar-white{
+    background-color: #fff;
+}
+.navbar {
+    font-size: 18px;
+    padding-bottom: 10px;
+        
+}
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.logo-negative {
+    color: rgba(255, 255, 255, 0.7);
+}
+.logo-positive {
+    color: rgba(31, 25, 72, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .logo-negative:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+    .logo-positive:hover {
+        color: rgba(31, 25, 72, 1);
+    }
+}
+
+@keyframes plantMovement {
+  0% {transform: rotate(0deg);}
+  50% {transform: skewX(-1deg) translateX(1%) scale(1, 1.1);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes bushMovement {
+  0% {transform: rotate(0deg);}
+  50% {transform: skewX(-3deg) translateX(3%) scale(1, 1);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes groundMovement {
+  0% {transform: translateY(0%);}
+  50% {transform: translateY(2%) scale(1, 1);}
+  100% {transform: translateY(0%);}
+}
+
+
+#leftSwirl{
+    animation-name: plantMovement;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#rightSwirl{
+    animation-name: plantMovement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#rightBush, #leftPlant{
+    animation-name: bushMovement;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#leftBush, #rightPlant{
+    animation-name: bushMovement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#ground{
+    animation-name: groundMovement;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.footer-section{
+    background-color: #F6B9CB; 
+}
+
+.page-footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    padding: 80px 0 80px 0;
+    margin-top: 80px;
+}
+.page-footer a[href^="tel"], .page-footer a{
+    padding: 10px;
+}
+
+a {
+    text-decoration:none; 
+    color:inherit;
+}
+
+.animation-box{
+    max-width: 280px;
+    margin: 0 auto!important;
+}
+
+#hopper-logo-car{
+    height: 300px;
+}
+
+div[x-hide]{
+    justify-content: center;
+    animation-name: showAnimation;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+div[x-hide="true"] {
+    animation-name: hideAnimation;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showAnimation {
+  from {transform: scale(0);}
+  to {transform: none;}
+}
+
+@keyframes hideAnimation {
+  from {transform: none;}
+  to {transform: scale(0);}
+}
+
+.my-btn {
+    border: none;
+    background: #1FCD6C;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.my-btn:hover {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: #F6B9CB;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+    
+/*SUB PAGES HEADER IMAGES*/
+
+.parallax-terrassevin{
+    background-image: url("Media/terrassevin/terassevin-bg.svg");
+    background-color: #00B3F1;
+}
+
+.parallax-mb-logo{
+    background-image: url("Media/mb-logo/mb-logo-bg.svg");
+    background-color: #24232B;
+}
+
+.parallax-hopper{
+    background-image: url("Media/hopper/hopper-bg.svg");
+    background-color: #333877;
+}
+
+.parallax-dog-logo{
+    background-image: url("Media/dog-logo/dog-logo-bg.svg");
+    background-color: #F44040;
+}
+.parallax-tegners-logo{
+    background-image: url("Media/tegners-logo/tegners-logo-bg.svg");
+    background-color: #FCD933;
+}
+.parallax-lefi{
+    background-image: url("Media/lefi/lefi-bg.svg");
+    background-color: #F5F4F3;
+}
+.parallax-antboy{
+    background-image: url("Media/antboy/antboy-bg.png");
+    background-color: #24232B;
+}
+.parallax-zulu{
+    background-image: url("Media/zulu/zulu-bg.png");
+    background-color: #00B3F1;
+}
+.parallax-cubeio{
+    background-image: url("Media/cubeio/cubeio-bg.png");
+    background-color: #0628B9;
+}
+.parallax-goboat{
+    background-image: url("Media/goboat/goboat-bg.svg");
+    background-color: #00B3F1;
+}
+.parallax-shade{
+    background-image: url("Media/shade/shade-bg.svg");
+    background-color: #E89D4A;
+}
+.parallax-other{
+    background-image: url("Media/other/other-bg.svg");
+    background-color: #FCD933;
+}
+
