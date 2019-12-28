@@ -659,7 +659,7 @@ var projekt = {
             //her kaldes showCutScene funktionen, hvori der medsendes et parameter som er stien til levelets video
             projekt.showCutScene(videoPath);
         } else{
-            window.location = "http://www.cbangslund.dk/bossLevelLefi/bossIndex.html";
+            window.location = "bosslevel/index.html";
         }
 
         });
