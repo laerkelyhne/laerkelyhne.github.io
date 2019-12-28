@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Luna'; /*a name to be used later*/
+    src: url('../Luna.ttf'); /*URL to font*/
+}
+
+.spillet{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+h2 {
+    color: #606060;
+    font-family: Luna;
+    font-size: 0.8em;
+}
+
+p{
+    font-family: verdana;
+    font-size: 0.8em;
+}
+
+.box{
+    background-color: #606060;
+    padding: 1%;
+    width: 150px;
+    display: inline-block;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Luna;
+    font-size: 0.8em;
+}

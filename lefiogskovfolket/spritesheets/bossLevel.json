@@ -1,0 +1,14 @@
+{
+  "bossLevel": [
+    {
+      "clouds": [
+        {"x":510, "y":200, "sprite":"cloud1"},
+        {"x":250, "y":350, "sprite":"cloud2"}
+      ]
+    }
+
+  ]
+
+
+
+}

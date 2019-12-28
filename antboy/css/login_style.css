@@ -1,0 +1,65 @@
+/*nimbus farve: #e95b0c*/
+
+
+body {
+    background: #1f1f1f; 
+    color: #686867;
+}
+
+
+::-webkit-input-placeholder {
+    color: #686867;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #686867;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #686867;  
+}
+
+:-ms-input-placeholder {  
+    color: #686867;
+}
+
+.login-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -172.5px;
+}
+
+.input-field{
+    background-color: #131313;
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #686867;
+}
+
+.login-btn{
+    border-radius: 4px; 
+    background: #339f92; 
+    color: #fffefe; 
+    border-color: transparent;
+    width: 310px; 
+    padding: 10px;
+    
+}
+.login-btn:hover{
+    color: #fffefe; 
+    background-color: #187e6f;
+}
+
+#sign-in{
+    text-align: center;
+    padding: 20px; 
+
+}
+.nimbus-logo{
+    width: 163px; 
+    margin: 0 auto; 
+}

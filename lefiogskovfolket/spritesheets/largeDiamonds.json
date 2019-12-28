@@ -1,0 +1,10 @@
+{
+  "framerate": 8,
+  "images": ["spritesheets/big_diamonds.png"],
+  "frames": {"width":133, "height":100, "regX":0, "regY":0},
+  "animations": {
+    "red":[0],
+    "blue":[1]
+
+  }
+}

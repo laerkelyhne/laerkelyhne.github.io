@@ -1,0 +1,9 @@
+{
+  "framerate": 8,
+  "images": ["spritesheets/small_diamonds.png"],
+  "frames": {"width":33, "height":25, "regX":0, "regY":0},
+  "animations": {
+    "blue":[0],
+    "red":[1]
+  }
+}

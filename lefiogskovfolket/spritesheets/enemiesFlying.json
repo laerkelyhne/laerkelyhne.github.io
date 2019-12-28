@@ -1,0 +1,8 @@
+{
+  "framerate": 8,
+  "images": ["spritesheets/enemiesFlying_02.png"],
+  "frames": {"width":172, "height":82, "regX":0, "regY":0},
+  "animations": {
+    "flying":[0,1,2,3]
+  }
+}

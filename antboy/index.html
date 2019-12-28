@@ -1,0 +1,1379 @@
+
+<!---------------------------------------------------------- header ---------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+    <meta charset="utf-8">
+
+    
+    <title>Antboy Animated</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Custom style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+    <!-- Animations -->
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <!-- Rotating card -->
+    <link rel="stylesheet" type="text/css" href="css/rotating-card.css"> 
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">  
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="icon" type="image/png" href="img/buttons/nimbus-favicon.png"/>
+
+    </head>
+    
+
+    <header></header>
+    
+    <!--tilføjer data-spy (indbygget i bootstrap) for at få navbar links highlighted i .navbar, når der scrolles til specifik section af navbar-->
+    <body data-spy="scroll" data-target=".navbar"> 
+
+
+<div class="mobile-screen">
+    
+    <div class="row">
+        <div class="col-lg-12">
+            <img src="img/NIMBUS_logo_orange.svg" alt="Nimbus logo i orange" class="img-responsive nimbus-logo-mobile">
+        </div>
+    </div>
+    
+    <p class="h3-mobile">Sorry, but the content on the page is not appropriate on small devices under 768px in width.</p>
+</div>
+
+<!---------------------------------------------------------- mobile-nav-bar ---------------------------------------------------------->
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse displayNone" id="mobile-topnavbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header mobile-nav">
+          <button type="button" class="navbar-toggle mobile-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#mob-story">story <span class="sr-only">(current)</span></a></li>
+            <li><a href="#mob-note">note</a></li>
+            <li><a href="#mob-show">show</a></li>
+            <li><a href="#mob-char">characters</a></li>
+              <li><a href="#mob-bios">produktion team</a></li>
+              <li><a href="#mob-cross">crossmedia</a></li>
+              <li><a href="#mob-facts">facts</a></li>
+              <li><a href="#mob-ip">IP</a></li>
+              <li><a href="#mob-map">rights</a></li>
+              <li><a href="#contact">contact</a></li>
+          </ul>
+
+          
+        </div><!-- /.navbar-collapse -->
+          
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!---------------------------------------------------------- section 1 ---------------------------------------------------------->  
+
+    <section id="landing" class="section-1" style="margin-top: 0!important; ">
+        <div class="sound-btns">
+            <img id="change-sound-img" class="mute-btn tilt" src="img/sound_on.svg" alt="sound on">
+            <a href="video/antboy_animated_trailer.mp4" id="video01" class="html5lightbox sound landing-video" data-width="820" data-height="500"><img src="img/play_button.svg" alt="play video" class="img-responsive play-button tilt" ></a>
+        </div>
+        <div id="title" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <img src="img/sec01_title.png" alt="logo" class="antboy-logo img-responsive">
+        </div>
+        <div id="animated" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="display: none;">
+            <img src="img/sec01_animated.png" alt="logo" class="antboy-animated img-responsive">
+        </div>
+        
+        <div class="mob-down">
+            <a href="#mob-story">
+                <p class="scroll-txt scroll-txt-landing slideExpandUp">Scroll through page</p>
+                <img class="page_down floating" src="img/page_down02.svg" alt="page down icon">
+            </a>
+        </div>
+        
+        <div class="down">
+            <a href="#story">
+                <p class="scroll-txt scroll-txt-landing slideExpandUp">Scroll through page</p>
+                <img class="page_down floating" src="img/page_down02.svg" alt="page down icon">
+            </a>
+        </div>
+    </section>
+
+<!---------------------------------------------------------- nav-bar ---------------------------------------------------------->
+<div class="nav-wrapper">
+    <nav class="navbar navbar-default navbar-static-top navbar-inverse" id="topnavbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#story">story <span class="sr-only">(current)</span></a></li>
+            <li><a href="#note">note</a></li>
+            <li><a href="#show">show</a></li>
+            <li><a href="#char">characters</a></li>
+              <li><a href="#bios">production team</a></li>
+              <li><a href="#cross">crossmedia</a></li>
+              <li><a href="#facts">facts</a></li>
+              <li><a href="#ip">IP</a></li>
+              <li><a href="#map">rights</a></li>
+              <li><a href="#contact">contact</a></li>
+          </ul>
+
+          
+        </div><!-- /.navbar-collapse -->
+          <ul class="nav navbar-nav navbar-right">
+            <li style="width: 40px;"><div class="nav-mute">
+                <img id="change-sound-img-2" class="mute-btn tilt" src="img/sound_on.svg" alt="sound on">
+            </div></li>
+          </ul>
+      </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!---------------------------------------------------------- THE STORY ---------------------------------------------------------->
+
+    <section class="section-2 container-fluid" id="sec02" style="height: calc(100% - 79px);">
+        <span class="mob-anchor" id="mob-story"></span>
+        <span class="anchor" id="story"></span>
+        
+        
+        <div id="my-panel-01" class="my-panel auto-panel check-panel-02 hidden-panel" >
+            <div id="panel-close-01" class="panel-close"> <p>Read <br>story </p></div>
+            
+            <div class="panel-content"><p>Pelle, a shy, awkward and chubby 12-year old boy develops superhuman powers, after he is infected with Hercules-toxin from a DNA modified ant. Pelle is suddenly gifted with the physical abilities of the tiny insect and is able to lift cars, climb walls and bite through solid steel. And oh yeah...he has also got acid for pee. <br> <br> Aided by Wilhelm, the biggest comic book geek in Middletown, Pelle transforms into Antboy - a superhero, who fights crime and protects the innocent in the sleepy suburb. <br><br>But supervillains are not the only things that the acid peeing crime buster has to worry about. Pelle also has to tackle the every day challenges that face any middle school student; homework, chores, love, friendship and puberty. </p></div>
+        </div>
+        
+        <div class="story-row">
+        
+            <div class="alle-sammen">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                <img src="img/characters/alle_sammen_ipad.png" alt="alle sammen" class="animRight alle-ipad img-responsive">
+                </div>
+            </div>
+
+            <div class="allerbagerst row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                    <img src="img/characters/beetle.png" alt="beetle" class="animExpandUp story-beetle characters">
+                </div>
+            </div>
+
+            <div class="bagerst row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                    <img src="img/characters/trasher_and_fury.png" alt="trasher and fury" class="animDown story-trasher characters">
+                </div>
+            </div>
+
+            <div class="andenbagerst row  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                     <img src="img/characters/dufort.png" alt="dufort" class="animExpandUp story-dufort characters">
+                </div>
+            </div>
+
+            <div class="mellem row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+                    <img src="img/characters/arnie.png" alt="loppen" class="animRight story-arnie characters">
+                </div>
+
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+                    <img src="img/characters/loppen.png" alt="trasher and fury" class="animRight story-loppen characters">
+                </div>
+
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+
+                </div>
+            </div>
+
+            <div class="forrest row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                    <img src="img/characters/hero_antboy.png" alt="antboy" class="story-antboy animDown characters">
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                    <img src="img/characters/hero_sidekick.png" alt="sidekick" class="story-sidekick animRight characters">
+                </div>
+            </div>  
+    
+        </div>
+        
+        <p class="scroll-txt scroll-txt-story" style="font-size: 0.9em;">Scroll through page</p>
+
+    </section>
+
+
+<!---------------------------------------------------------- PRODUCERS NOTE ---------------------------------------------------------->
+
+    <section class="section-3 container-fluid" id="sec03" style="height: calc(100% - 79px);">
+        <span class="mob-anchor" id="mob-note"></span>
+        <span class="anchor" id="note"></span>
+        
+        <div id="my-panel-02" class="my-panel check-panel-03 hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+            <div id="panel-close-02" class="panel-close"> <p>Producer's note </p></div>
+            
+            
+            <div class="panel-content"><p>Antboy originates from a bestselling Danish children’s book series by renowned author Kenneth Bøgh Andersen.
+Nimbus Film optioned the rights in 2008 with the ambition of creating the first ever Danish live action superhero in the shape of a young adolescent, the 12 year-old Pelle Nørhman. And hereby combining an international brand, all american genre and larger than life universe with strong, Danish storytelling tradition, humour and a hint of social realism. Antboy (2014) and Antboy: Revenge of the Red Fury (2015) achieved critical acclaim, box office success, are circulated on major film festivals and distributed internationally to over 80 countries. 
+The third, and final film, to complete the trilogy, is in production and will be released in 2017.
+<br><br>Breaking new ground by venturing on to new platforms seems like the natural next step in developing the franchise and taking the Antboy universe to the next level.  The series format allows us to unfold the characters, build on their backstories and extend their emotional arcs whilst adding new friends and foes to the arena for more fun and exciting adventures.
+Animation will allow us to generate more visual ideas and take the action sequences and physicality to another level, thereby exploring the special world and powers of our superhero universe even further. 
+<br><br>As the Superhero genre itself originates from cartoons and graphic novels, there is a strong creative motivation to take on animation.
+Our head write Anders Ølholm and production designer Flemming Schmidt are both fanboys passionately dedicated to the superhero genre. As Anders is the principal writer on the Antboy live action trilogy as well, we are able to establish a strong narrative signature and coherent tone throughout the franchise.
+</p></div>
+        </div>
+        <div class="row note-row">
+            <div class="antboy-fight col-xs-12 col-sm-12 col-md-10 col-lg-8">
+                <img src="img/characters/antboy_Fight.png" alt="antboy fight" class="animExpandUp img-responsive antboy-fight-hide">
+            </div>
+            
+            <div class="wham col-xs-12 col-sm-9 col-md-4 col-lg-4">
+                <img src="img/wham.svg" alt="Wham!" class="img-responsive wham-hide animLeft pulse">
+            </div>
+            
+        </div>
+        
+        
+    </section>
+
+<!---------------------------------------------------------- THE SHOW ---------------------------------------------------------->
+
+    <section id="sec04" class="section-4 container-fluid" style="height: calc(100% - 79px);">
+        <span class="mob-anchor" id="mob-show"></span>
+        <span class="anchor" id="show"></span>
+        <div id="my-panel-show" class="my-panel check-panel-04 hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+            <div id="panel-close-show" class="panel-close"> <p>About the show </p></div>
+            
+            <div class="panel-content"><p>“Antboy: Animated” is a superhero action comedy series. The show will, in part, be based on the three live-action feature films produced by Nimbus Film and will also expand upon the cinematic universe created in the trilogy. It won’t however be necessary for the audience to have seen any of the theatrical films in order to understand the characters or the story. To quote legendary comic book editor Stan Lee “every comic book is someone’s first”, a sentiment that the animated series will firmly integrate into the show. For example Antboy’s origin story will be explained in the opening title sequence of each episode. <br><br>The show will also be more episodic than serialized. Each episode is largely self-contained, but still moves the overall story forward.  There will be some callbacks to earlier episodes, but the viewer can to tune in to an episode in the middle of the season and still be able to follow the plot.<br><br>Humor is a crucial part of the Antboy universe, that the animated series will take to a whole new level, injecting wacky comedy, self-referential jokes and breaking of the fourth wall into each episode – much like the groundbreaking animated series “Freakazoid!” by Paul Dini and Bruce Timm. The show will also reference other superhero movies, comic book mythology and popcultur in general. Even though the target demographic is the six to ten year age group, a lot of the humor will be enjoyable for adults as well.<br><br>Some episodes will tackle stories with a more serious thematic complexity and emotional depth, while other episodes will be more lighthearted and silly. 
+
+“Antboy: Animated” will have simple, yet cool and stylized animation influenced by Japanese anime, much like “Teen Titans”.
+</p></div>
+        </div>
+        
+        <div class="show-row">
+            <div class="all-show-wrapper col-lg-12">
+                <img src="img/characters/alle_show.png" alt="all characters" class="img-responsive all-show-img animRight">
+            </div>
+            
+            <div class="all-show-wrapper-ipad col-sm-12">
+                <img src="img/characters/alle_show_ipad.png" alt="all characters" class="img-responsive all-show-img-ipad animRight">
+            </div>
+
+
+        </div>
+        
+        <div class="video-panel animLeft">
+        <div class="show-video-wrapper img-responsive">
+
+                <a href="video/antboy_animated_trailer.mp4" class="html5lightbox sound" data-width="820" data-height="500" >
+                    <img src="img/buttons/show_video_1.svg" alt="video button" id="video02" class="img-responsive show-video">
+                </a>
+
+                <a href="video/Antboy_1_klip_1.mp4" class="html5lightbox sound" data-width="820" data-height="500">
+                    <img src="img/buttons/show_video_2.svg" alt="video button" id="video02" class="img-responsive show-video">
+                </a>
+            
+                <a href="video/ANTBOY ANIMATION_FINAL.mp4" class="html5lightbox sound" data-width="820" data-height="500">
+                    <img src="img/buttons/show_video_3.svg" alt="video button" id="video02" class="img-responsive show-video">
+                </a>
+            
+                <a href="video/Antboy_2_klip_1.mp4" class="html5lightbox sound" data-width="820" data-height="500">
+                    <img src="img/buttons/show_video_4.svg" alt="video button" id="video02" class="img-responsive show-video">
+                </a>
+
+        </div>
+            </div>
+        
+    </section>
+
+<!---------------------------------------------------------- THE CHARACTERS ---------------------------------------------------------->
+
+<section id="sec05" class="section-5 container-fluid" >
+    <span class="mob-anchor" id="mob-char"></span>
+    <span class="anchor" id="char"></span>
+
+
+    <div class="row">
+
+        <!-------------------------------------- ANTBOY ---------------------------------->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-antboy-bg">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="antboy-header">ANTBOY</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/antboy_hero_normal.png" alt="Hero/normal Antboy" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_antboy_ac_01.png" alt="Antboy actions" class="img-responsive">
+            </div>
+
+            <div id="antboy-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-antboy" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>Being Ant Boy changed all that… kind of.  He loves saving people and tussling with the forces of evil. But when his flashy costume comes off, he’s just plain old Weaver again. 
+<br><br>
+The other kids have no idea that the famous super-hero Ant Boy is their classmate. Once in a while someone might point out a vague resemblance between the two, then shrug and change the subject.  It can be hard for him to take part in regular teenager stuff.  (You’re at a party, about to get up the nerve to ask a girl to dance, and suddenly you’re summoned to battle Cloudman on the top of the city’s tallest building.) Some kids think he’s just a bit flakey.<br><br>
+
+His parents haven’t clued in yet, either.  They both work and they’re extremely busy – he’s pretty much a latchkey kid – and, while they love him, they’ve never found him to be all that interesting.  Frankly, they’re pretty self-absorbed.<br><br>
+
+He’s still adjusting to his new abilities – especially when it comes to his regular life.  Occasionally he wishes his powers included something like X-ray vision that he could use to help him with tests, or the ability to reverse time when he’s late for school.  Mostly his powers come into play in gym class (he’s really good at chin-ups) and lunch (since his mom tends to overwrap his sandwiches.)<br><br>
+
+He’s still working on his super-hero quippery.  It’s tricky enough hanging upside down from a bridge while wrestling with a crazed scientist who’s turned himself into a super-flea (all the while worrying about tomorrow’s math test) without having to come up with clever puns and put-downs.
+And – unfortunately, his ant powers come with one pesky drawback: he needs sugar. LOTS OF SUGAR. Which means in the middle of a battle with the bad guy he might need a time-out to stop and wolf down a couple of chocolate bars and wash it down with a Pepsi.
+
+</p>
+
+
+                </div>
+                <div class="panel-pic">
+                    <img src="img/characters/char_antboy_ac_02.png" alt="Antboy actions" class="img-responsive">
+                </div>
+            </div>
+
+        </div>
+
+        <!-------------------------------------- DUFORT ---------------------------------->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-dufort-bg displayNone">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="dufort-header">ALICIA DUFORT</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/char_dufort_normal.png" alt="Hero/normal Dufort" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_dufort_ac_01.png" alt="Dufort actions" class="img-responsive">
+            </div>
+
+            <div id="dufort-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-dufort" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>When French business magnet Charles Richard Dufort acquired ExoFarm Industries, it was merely a way to eliminate the competition. The company was going to be shut down, when Alicia Dufort, the daughter of the wealthy businessman, deduced that ExoFarm was the source of Antboy’s powers. <br><br>
+
+Alicia took over the reigns of the corporation and immediately tried to lure Doctor Albert Gæmelkrå back into the fold and recreate his Hercules-serum, so that it could be used to cure terminal illnesses around the world. The doctor agreed to return, but when he discovered, that the C.E.O. only wanted to use Hercules for her own evil ends, he forged an uneasy (and short lived) alliance with Antboy to stop her and retrieve the serum.<br><br>
+
+Alicia Dufort is the mega villain of the Antboy universe.  Unlike The Flea, who is inherently good, Alicia is pure evil. A spoiled rich girl, who tries to pass herself off as a philanthropist, but is actually a power hungry megalomaniac. She constantly attempts to use her extreme wealth to rid the world of Antboy – the only obstacle between her and world domination.
+
+</p>
+
+
+                </div>
+                <div class="panel-pic">
+                    <img src="img/characters/char_dufort_ac_01.png" alt="Hero/normal Dufort" class="img-responsive">
+                </div>
+            </div>
+
+        </div>
+
+        <!-------------------------------------- FURY ---------------------------------->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-fury-bg displayNone">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="fury-header">THE RED FURY</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/char_fury_normal.png" alt="Hero/normal Fury" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_fury_ac_01.png" alt="Fury actions" class="img-responsive">
+            </div>
+
+            <div id="fury-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-fury" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>Maria Musajev lived in a public housing complex with her father, who fled their war-torn homeland, Kerznovia, when she was just a baby. Maria was a nerdy girl, who liked to read, who made her own clothes and had a special fondness for the color red. School, on the other hand, she wasn’t too crazy about. The other kids either saw right through her or worse…teased her incessantly.
+Maria didn’t really have anyone to talk to. Her mother died in the war, and her absentminded father, an unemployed science professor, was busy working on his invention, the lux-reflector; a technological device that could make certain materials bend light and render them seemingly invisible. If the darn thing would ever work!<br><br>
+
+One day the constant bullying became too much for Maria, and when she accidently got the lux-reflector to work, she stole the device and used it to get payback on all the kids at school, who had made her life miserable.<br><br>
+
+Antboy eventual stopped the invisible girl and made her see the error of her ways. The lux-reflector should be used for helping people instead of hurting them. Maria donned a crimson cape as well as the mantle of The Red Fury – a mysterious crime fighter, who can appear anywhere out of thin air…like a ghost.
+
+
+</p>
+
+
+                </div>
+                <div class="panel-pic">
+                    <img src="img/characters/char_fury_ac_02.png" alt="Fury actions" class="img-responsive">
+                </div>
+            </div>
+
+        </div>
+        
+        <!-------------------------------------- IDA ---------------------------------->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-ida-bg displayNone">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="ida-header">IDA DUFORT</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/char_ida_normal.png" alt="Hero/normal Ida" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_ida_ac_01.png" alt="Ida actions" class="img-responsive">
+            </div>
+
+            <div id="ida-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-ida" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue tortor, auctor sit amet semper vitae, faucibus id libero. Cras sit amet tellus eget lacus scelerisque efficitur. Ut eros arcu, pulvinar ac venenatis vel, vehicula id risus. Quisque luctus suscipit libero quis lobortis. Vivamus fringilla nisi vel metus dictum malesuada. In rutrum mi dolor, ac molestie est semper ac. Nam at odio vehicula, mattis orci at, elementum purus. Aenean consequat, enim a blandit ullamcorper, erat massa elementum massa, vitae maximus odio mauris non est. Pellentesque nec est felis. Fusce elementum felis lacus, in maximus lorem commodo eu. Curabitur hendrerit justo sed maximus luctus. Suspendisse eu justo nisi. Vivamus varius arcu eget ornare tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue tortor, auctor sit amet semper vitae, faucibus id libero. Cras sit amet tellus eget lacus scelerisque efficitur. Ut eros arcu, pulvinar ac venenatis vel, vehicula id risus. Quisque luctus suscipit libero quis lobortis. Vivamus fringilla nisi vel metus dictum malesuada. In rutrum mi dolor, ac molestie est semper ac. Nam at odio vehicula, mattis orci at, elementum purus. Aenean consequat, enim a blandit ullamcorper, erat massa elementum massa, vitae maximus odio mauris non est. Pellentesque nec est felis. Fusce elementum felis lacus, in maximus lorem commodo eu. Curabitur hendrerit justo sed maximus luctus. Suspendisse eu justo nisi. Vivamus varius arcu eget ornare tempor.
+</p>
+
+                </div>
+                <div class="panel-pic">
+                    <img src="img/characters/char_ida_ac_02.png" alt="Ida actions" class="img-responsive">
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!-------------------------------------- LOPPEN ---------------------------------->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-loppen-bg displayNone">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="loppen-header">THE FLEA</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/char_loppen_normal.png" alt="Hero/normal the flea" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_loppen_ac_01.png" alt="the flea actions" class="img-responsive">
+            </div>
+
+            <div id="loppen-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-loppen" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>Doctor Albert Gæmelkrå was a brilliant and respected biochemist that worked for one of the biggest medical firms in the world, ExoFarm Industries. But Albert was also an introvert who lived in his mother’s basement.  A portly man, whose right leg was so badly riddled with arthritis, that he had to wear a big, metallic leg brace in order to walk.<br><br>
+
+When his mother contracted a terminal illness, Albert turned to science to save her. He had a theory that an extremely rare species of ant, only found in a remote part of China, had a unique antibody capable of curing life-threatening diseases. So he started to develop a serum called Hercules, which could transfer those same healing properties from the insect to his mother. <br><br>
+
+When the president of ExoFarm found out, that Albert was carrying out secret human experiments on his own mother, he immediately terminated the project. The doctor begged and pleaded the C.E.O. to let him continue the treatments, but to no avail.<br><br>
+
+Albert was unable to save his mother. The grief-stricken doctor turned his back on the world and became a recluse…until the day a chubby 12-year-old boy stumbled into his backyard and got bitten by an ant from his laboratory.  An ant injected with the Hercules-serum.<br><br>
+
+When Albert discovered, that Hercules had transformed the boy into a superhero, he used the serum to take the powers from a different insect…the flea. The serum removed the arthritis from his legs and made them a hundred times stronger, making him able to jump incredible high. But Albert also inherited the flea’s insatiable thirst for blood, the only thing that could sustain his powers.<br><br>
+
+Albert, who dubbed himself The Flea, tried to use his newfound powers to exact revenge on ExoFarm and everyone else who’d ever wronged him, but was thwarted by Antboy and sent off to Dragensborg Asylum.<br><br>
+
+The Flea is obsessed with destroying Antboy and uses his genius-level intelligence to concoct new elaborate schemes to entrap him.
+</p>
+
+
+                </div>
+                <div class="panel-pic">
+                    <img src="img/characters/char_loppen_ac_02.png" alt="the flea actions" class="img-responsive">
+                </div>
+            </div>
+
+        </div>
+        
+        <!-------------------------------------- SIDEKICK ---------------------------------->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-sidekick-bg displayNone">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="sidekick-header">SIDEKICK</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/char_sidekick_normal.png" alt="Hero/normal sidekick" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_sidekick_ac_01.png" alt="Sidekick actions" class="img-responsive">
+            </div>
+
+            <div id="sidekick-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-sidekick" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>To the outside world Wilhelm was that weird comic book geek who always talked in overbearing, sarcastic quips and didn’t seem to care much for other people. But in truth Wilhelm’s arrogant manner was only masking his own insecurities. His poor social skills alienated him from other people, and although he would never admit it, even to himself, he was very lonely. <br><br>
+
+Over time he had convinced himself, that friendship was an overrated concept, and that his enormous comic collection was the only company he would ever need. Then one day the bespectacled nerd suddenly started to suspect, that another boy at school, a chubby and goofy looking kid named Pelle, actually might have real superpowers!<br><br>
+
+Wilhelm put his disdain for socializing aside, explained his theory to Pelle and tried to persuade him, that he needed help from an expert. After a lot of convincing Pelle finally agreed to become a superhero (mostly because he thought, it would make him more popular). Wilhelm immediately started to test his abilities, equip him with hi-tec gadgetry and, most importantly, create a costume fit for a real life crime fighter – as well as Pelle’s egg-shaped physic. <br><br>
+
+Antboy was born. Pelle provided the brawn, while Wilhelm was the brains of the operation - at least if you asked him. While Antboy would patrol the streets of Middletown and fight bad guys, Wilhelm would mend and improve the battle damaged suits, build new gadgets, help solve crimes, coordinate, organize and provide intel via the AntCom. 
+But Wilhelm dreamed of being more than Antboy’s sidekick. He wanted to be a superhero.
+
+</p>
+
+
+                </div>
+                <div class="panel-pic">
+                    <img src="img/characters/char_sidekick_ac_02.png" alt="sidekick actions" class="img-responsive">
+                </div>
+            </div>
+
+        </div>
+        
+        <!-------------------------------------- TRASHER ---------------------------------->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-trasher-bg displayNone">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="trasher-header">TRASHER</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/char_trasher_normal.png" alt="Hero/normal trasher" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_trasher_ac_01.png" alt="trasher actions" class="img-responsive">
+            </div>
+
+            <div id="trasher-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-trasher" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue tortor, auctor sit amet semper vitae, faucibus id libero. Cras sit amet tellus eget lacus scelerisque efficitur. Ut eros arcu, pulvinar ac venenatis vel, vehicula id risus. Quisque luctus suscipit libero quis lobortis. Vivamus fringilla nisi vel metus dictum malesuada. In rutrum mi dolor, ac molestie est semper ac. Nam at odio vehicula, mattis orci at, elementum purus. Aenean consequat, enim a blandit ullamcorper, erat massa elementum massa, vitae maximus odio mauris non est. Pellentesque nec est felis. Fusce elementum felis lacus, in maximus lorem commodo eu. Curabitur hendrerit justo sed maximus luctus. Suspendisse eu justo nisi. Vivamus varius arcu eget ornare tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue tortor, auctor sit amet semper vitae, faucibus id libero. Cras sit amet tellus eget lacus scelerisque efficitur. Ut eros arcu, pulvinar ac venenatis vel, vehicula id risus. Quisque luctus suscipit libero quis lobortis. Vivamus fringilla nisi vel metus dictum malesuada. In rutrum mi dolor, ac molestie est semper ac. Nam at odio vehicula, mattis orci at, elementum purus. Aenean consequat, enim a blandit ullamcorper, erat massa elementum massa, vitae maximus odio mauris non est. Pellentesque nec est felis. Fusce elementum felis lacus, in maximus lorem commodo eu. Curabitur hendrerit justo sed maximus luctus. Suspendisse eu justo nisi. Vivamus varius arcu eget ornare tempor.
+</p>
+
+
+                </div>
+                
+                <div class="panel-pic">
+                    <img src="img/characters/char_trasher_ac_02.png" alt="trasher actions" class="img-responsive">
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!-------------------------------------- TWINS ---------------------------------->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 char-bg char-twins-bg displayNone">
+
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                <h1 id="twins-header">BEETLE BOYS</h1>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <img src="img/characters/char_twins_normal.png" alt="Hero/normal twins" class="img-responsive">
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="img/characters/char_twins_ac_01.png" alt="twins actions" class="img-responsive">
+            </div>
+
+            <div id="twins-panel" class="my-panel hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+                <div id="close-twins" class="panel-close panel-close-char"> <p>About</p></div>
+                <div class="panel-content-char"><p>Mark and Allan were the two most feared bullies in Middletown. So much so, that the two teenage boys had been nicknamed The Terror Twins by the kids they tormented on a regular basis. Kids like Pelle and Wilhelm. But when Antboy put a stop to the despicable duo and humiliated them in front of the entire school, the two simpletons swore revenge on the chubby superhero and allegiance to his arch nemesis; The Flea.<br><br>
+
+Mark and Allan were bitten by a giant stag beetle, which was infected with the Hercules-toxin, and mutated into muscle-bound, armor plated humanoid insects with incredible strength…if not the I.Q. to match. <br><br>
+
+The Flea uses the beetle boys as his henchmen, but more often than not the dimwitted hooligans are too stupid to carry out his evil plans. And although The Trouble Twins are a force to be reckoned with, when it comes to brute strength and power, Antboy can usually outsmart them rather than fight them head on.
+
+</p>
+
+
+                </div>
+                <div class="panel-pic">
+                    <img src="img/characters/char_twins_ac_02.png" alt="twins actions" class="img-responsive">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row char-btns">
+
+        <div class="hidden-xs hidden-sm hidden-md col-lg-2"></div>
+
+        <div id="antboy-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/antboy_btn_01.png" id="antboy-btn-toggle" class=" btn img-responsive tilt">
+        </div>
+
+        <div id="dufort-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/dufort_btn_01.png" id="dufort-btn-toggle" class="dufort btn img-responsive tilt">
+        </div>
+
+        <div id="fury-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/fury_btn_01.png" id="fury-btn-toggle" class="dufort btn img-responsive tilt">
+        </div>
+
+        <div id="ida-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/ida_btn_01.png" id="ida-btn-toggle" class="dufort btn img-responsive tilt">
+        </div>
+
+        <div id="loppen-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/loppen_btn_01.png" id="loppen-btn-toggle" class="dufort btn img-responsive tilt">
+        </div>
+
+        <div id="sidekick-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/sidekick_btn_01.png" id="sidekick-btn-toggle" class="dufort btn img-responsive tilt">
+        </div>
+
+        <div id="trasher-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/trasher_btn_01.png" id="trasher-btn-toggle" class="dufort btn img-responsive tilt">
+        </div>
+
+        <div id="twins-btn" class="col-xs-6 col-sm-3 col-md-3 col-lg-1 text-center">
+            <img src="img/buttons/twins_btn_01.png" id="twins-btn-toggle" class="dufort btn img-responsive tilt">
+        </div>
+
+        <div class="hidden-xs hidden-sm hidden-md col-lg-2"></div>
+
+    </div>
+
+
+
+</section>
+
+<!---------------------------------------------------------- BIOS ---------------------------------------------------------->
+
+<section id="sec06" class="section-6 container-fluid" >
+    <span class="mob-anchor" id="mob-bios"></span>
+        <span class="anchor" id="bios"></span>
+        <div class="container">
+            <div class="row bio-row-01">
+
+                
+                 <div class="col-md-4 col-sm-6">
+                     <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="img/bios/yellow_cover.png"/>
+                                </div>
+                                <div class="user" onclick="rotateCard(this)">
+                                    <img class="img-circle" src="img/bios/ølholm.jpg"/>
+                                </div>
+                                <div class="content">
+                            <div class="main">
+                                        <h3 class="name">Anders Ølholm</h3>
+                                        <p class="profession">Head Writer</p>
+                                        <h5><i class="fa fa-book fa-fw text-muted"></i> National Film School of Denmark</h5>
+                                        <h5><i class="fa fa-building-o fa-fw text-muted"></i> Freelancer </h5>
+                                        <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> olholmfilm@gmail.com</h5>
+                                    </div>
+                                    <div class="footer">
+                                        <button class="btn btn-simple" style="color:#e1c07f" onclick="rotateCard(this)">
+                                            MORE ABOUT
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <h5 class="motto">"Antboy, the first Danish superhero film, marked his feature film debut"</h5>
+                                </div> 
+                                <div class="content">
+                                    <div class="main">
+                                        <P class="card-content">Anders Ølholm (b. 1983) graduated from the screenwriting program at The National Film School of Denmark in 2009.<br><br>
+Antboy, the first Danish superhero film, marked his feature film debut. The film premiered at the Toronto Film Festival and the Buster International Film Festival. In 2014 he penned the critically acclaimed hip hop drama Ækte Vare (Flow) as well as Antboy: Revenge of the Red Fury, which was selected for the Berlin Film Festival in the Generation Kplus category, and received the Danish Academy Award for best childrens film. <br><br>
+Anders is currently finishing the script for Antboy III, which will be in cinemas in February 2016. He has several other projects in development, such as an adaption of a novel by Jonas Bengtsson. 
+
+</P>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Back
+                                    </button>
+                                    <div class="social-links text-center">
+<!--
+                                        <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                        <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                        <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+-->
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div> <!-- end col sm 3 -->
+        <!--         <div class="col-sm-1"></div> -->
+                <div class="col-md-4 col-sm-6">
+                     <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="img/bios/green_cover.png"/>
+                                </div>
+                                <div class="user" onclick="rotateCard(this)">
+                                    <img class="img-circle" src="img/bios/flemming.jpg"/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Flemming Schmidt</h3>
+                                        <p class="profession">Production Designer</p>
+                                        <h5><i class="fa fa-book fa-fw text-muted"></i>Royal Danish Academy of Fine Arts</h5>
+                                        <h5><i class="fa fa-building-o fa-fw text-muted"></i> Freelancer </h5>
+                                        <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> doppelganger.doppelganger@gmail.com</h5>
+                                    </div>
+                                    <div class="footer">
+                                        <button class="btn btn-simple" style="color:#538d73" onclick="rotateCard(this)">
+                                            MORE ABOUT
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <h5 class="motto">"Has illustrated more than 10 titles and is currently writing a series of his own"</h5>
+                                </div> 
+                                <div class="content">
+                                    <div class="main">
+                                        <P class="card-content">Flemming Schmidt (b. 1984) graduated from The Royal Danish Academy of Fine Arts in 2011, majoring in Design for film and tv. Specializing in illustration and animation design he has since worked in multiple media, including children's books, computer games, poster art and more. <br><br>
+His debut in animation came with the 3d-animated short Piggy that aired on tv Christmas Eve in Denmark and Norway, spawning an illustrated children's book in 2012.<br><br>
+Since then he has illustrated more than 10 titles and is currently writing a series of his own, scheduled for 2015. <br><br>
+Other publications include cover art for World War Z (Danish book version) and for the acclaimed transmedia game Cloud Chamber. 
+In 2014 his illustrations made it to the big screen with Antboy: Revenge of the Red Fury and the documentary Bad Boy Breathing.
+
+</P>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Back
+                                    </button>
+                                    <div class="social-links text-center">
+<!--
+                                        <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                        <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                        <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+-->
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div> <!-- end col sm 3 -->
+        <!--         <div class="col-sm-1"></div> -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="img/bios/purple_cover.png"/>
+                                </div>
+                                <div class="user" onclick="rotateCard(this)">
+                                    <img class="img-circle" src="img/bios/bo.png"/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Bo Ehrhardt</h3>
+                                        <p class="profession">Executive Producer</p>
+                                        <h5><i class="fa fa-book fa-fw text-muted"></i>National Film School of Denmark </h5>
+                                        <h5><i class="fa fa-building-o fa-fw text-muted"></i>Nimbus Film </h5>
+                                        <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> bo@nimbusfilm.dk</h5>
+                                    </div>
+                                   <div class="footer">
+                                        <button class="btn btn-simple" style="color:#6b5287" onclick="rotateCard(this)">
+                                            MORE ABOUT
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <h5 class="motto">"Co-founded Nimbus Film with Birgitte Hald in 1993"</h5>
+                                </div> 
+                                <div class="content">
+                                    <div class="main">
+                                        <P class="card-content">Bo Ehrhardt graduated as producer from The National Film School of Denmark in 1993 and co-founded Nimbus Film with Birgitte Hald the same year. Nimbus Film has always been synonymous with developing talent and setting trends in the Danish film
+industry, playing a leading role in the Dogme-movement in the late 1990s, with award winning films such as The Celebration (Thomas Vinterberg) and Mifune (Søren Kragh-Jacobsen). Bo Ehrhardt is executive producer on all Nimbus Film productions, of which the latest are The Hour of the Lynx (Søren Kragh-Jacobsen), starring Sofie Gråbøl in the lead role, as well as Denmark’s first superhero Antboy, which premiered in the Danish cinemas in the autumn of 2013.<br><br>
+Bo Ehrhardt is also producing the TV-series The Bridge, of which season two was broadcast simultaneously in all five Nordic countries in the autumn of 2013. Season three is currently in post production. Nimbus Film has produced more than 50 feature films, including King’s Game (Nikolaj Arcel), Flame & Citron (Ole Chr. Madsen), What Goes Around (Anders Matthesen), Catch That Kid (Hans Fabian Wullenweber), Valhalla Rising (Nikolas Winding Refn) and the Oscar-nominated short film Teis and Nico (Henrik Ruben Genz).
+
+
+</P>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple"  onclick="rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Back
+                                    </button>
+                                    <div class="social-links text-center">
+<!--
+                                        <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                        <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                        <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+-->
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div> <!-- end col-sm-3 -->
+         
+            
+            
+            
+            
+            
+            
+            
+            
+
+                
+                 <div class="col-md-4 col-sm-6">
+                     <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="img/bios/rosa_cover.png"/>
+                                </div>
+                                <div class="user" onclick="rotateCard(this)">
+                                    <img class="img-circle" src="img/bios/live.jpg"/>
+                                </div>
+                                <div class="content">
+                            <div class="main">
+                                        <h3 class="name">Live Hide</h3>
+                                        <p class="profession">Junior Producer</p>
+                                        <h5><i class="fa fa-book fa-fw text-muted"></i>University of Copenhagen</h5>
+                                        <h5><i class="fa fa-building-o fa-fw text-muted"></i> Nimbus Film </h5>
+                                        <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> live@nimbusfilm.dk</h5>
+                                    </div>
+                                    <div class="footer">
+                                        <button class="btn btn-simple" style="color: #be9494;" onclick="rotateCard(this)">
+                                            MORE ABOUT
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <h5 class="motto">"Best practice within tv-series production"</h5>
+                                </div> 
+                                <div class="content">
+                                    <div class="main">
+                                        <P class="card-content">Live graduated from the University of Copenhagen in 2014 with a master degree in Film Studies. Her dissertation concerned itself with best practice within tv-series production.  Live has perviously worked at SF Film Production and assisted on several feature films before joining Nimbus in 2014.
+
+
+</P>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple"  onclick="rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Back
+                                    </button>
+                                    <div class="social-links text-center">
+<!--
+                                        <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                        <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                        <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+-->
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div> <!-- end col sm 3 -->
+        <!--         <div class="col-sm-1"></div> -->
+                <div class="col-md-4 col-sm-6">
+                     <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="img/bios/light_blue_cover.png"/>
+                                </div>
+                                <div class="user" onclick="rotateCard(this)">
+                                    <img class="img-circle" src="img/bios/petter.png"/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Petter Lindblad</h3>
+                                        <p class="profession">Consultant</p>
+                                        <h5><i class="fa fa-book fa-fw text-muted"></i>Royal Institute of Technology</h5>
+                                        <h5><i class="fa fa-building-o fa-fw text-muted"></i> Snowcloud Films AB</h5>
+                                        <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> mail@mail.com</h5>
+                                    </div>
+                                    <div class="footer">
+                                        <button class="btn btn-simple" style="color: #b8c4de;" onclick="rotateCard(this)">
+                                            MORE ABOUT
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <h5 class="motto">"Ambition to create exciting, interesting and entertaining stories for childen and youths"</h5>
+                                </div> 
+                                <div class="content">
+                                    <div class="main">
+                                        <P class="card-content">Petter Lindblad (born 1975) graduated from the Royal Institute of Technology in Stockholm in 2000, where he received a Master in Media Production. Since then he has worked in different medias - digital TV, web, film and games - until going to the MEDIA-supported Media Business School in Spain in 2005, where he received a Master in European Audiovisual Management. During that program he ended up at Zentropa in Denmark, where he worked as assistant producer on the CGI-heavy adventure feature film Island of Lost Souls. <br><br>
+
+In January 2007 he started working at Copenhagen Bombay with CEO/founders Sarita Christensen and Anders Morgenthaler as a producer, mainly on animation projects, among others as producer for the feature animations The Apple and The Worm and The Great Bear, the short features Carsten and Gitte’s Movie Madness and The Secret of The Ice Flower, as well as the game project Beyond Beyond, and the Game and the TV-series The Pandas.<br><br>
+
+From June 2011 to March 2014 he ran the Swedish branch - CB Sverige AB - in Stockholm, that he built for the mother company Copenhagen Bombay and its ambitions for the Swedish market. He has recruited the teams and started projects for the company. There he produced Beyond Beyond, Sweden's first stereoscopic (3D) feature film ever, in the studio. And acted as co-producer on the 2D-animated film The Golden Horse.<br><br>
+
+Since April 2014 he runs his own production company, Snowcloud Films AB, with the ambition to create exciting, interesting and entertaining stories for childen and youths, with a special focus on animation. He recently finished a 30 minute animation film for SVTB titled Lea and the Forest Pirates by director Maria AVramova, and producing the live action/CGI feature film Siv Sleeps Astray with director Catti Edfeldt and Lena Hanno Clyne. He was selected by The Swedish Film Institute to be Sweden's Producer on the Move in Cannes 2014.
+
+
+</P>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple"  onclick="rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Back
+                                    </button>
+                                    <div class="social-links text-center">
+<!--
+                                        <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                        <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                        <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+-->
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div> <!-- end col sm 3 -->
+        <!--         <div class="col-sm-1"></div> -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="img/bios/black_cover.png"/>
+                                </div>
+                                <div class="user" onclick="rotateCard(this)">
+                                    <img class="img-circle" src="img/NIMBUS_logo_orange.svg"/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Nimbus Film</h3>
+                                        <p class="profession">Production Company</p>
+                                        <h5><i class="fa fa-map-marker fa-fw text-muted"></i> Hauchsvej 17, FRB DK   </h5>
+                                        <h5><i class="fa fa-film  fa-fw text-muted"></i> More than 50 feature films  </h5>
+                                        <h5><i class="fa fa-trophy fa-fw text-muted"></i> Host of award winning shorts</h5>
+                                    </div>
+                                   <div class="footer">
+                                        <button class="btn btn-simple"  style="color: #ea5a00;" onclick="rotateCard(this)">
+                                            MORE ABOUT
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <h5 class="motto">"Largest independent film production company in Denmark"</h5>
+                                </div> 
+                                <div class="content">
+                                    <div class="main">
+                                        <P class="card-content">Nimbus Film is the largest independent film production company in Denmark and has produced more than 50 feature films and a host of award winning shorts.<br><br>
+Nimbus Film was a major player in the Danish DOGMA95 movement with film such as The Celebration by Thomas Vinterberg (winner of the Jury Prize in Cannes in ’98) and Mifune by Søren Kragh-Jacobsen (winner of the Silver Bear Award in Berlin in  ́99) and created box office and critical successes in the last ten years with films such as The King’s Game by Nikolaj Arcel, Flame & Citron by Ole Christian Madsen and Antboy I & II by Ask Hasselbalch. Nimbus has been nominated for Oscar, Golden Globe and most recently BAFTA for their very first tv-drama-series The Bridge created by Hans Rosenfeldt and Charlotte Sieling.
+
+
+
+</P>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Back
+                                    </button>
+                                    <div class="social-links text-center">
+<!--                                        <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>-->
+<!--                                        <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>-->
+<!--                                        <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div> <!-- end col-sm-3 -->
+            
+         
+           </div> <!-- end row --> 
+        </div>
+    </section>
+
+<!---------------------------------------------------------- CROSSMEDIA ---------------------------------------------------------->
+
+    <section class="section-7 container-fluid" id="sec07" style="height: 60%">
+        <span class="mob-anchor" id="mob-cross"></span>
+        <span class="anchor" id="cross"></span>
+        
+        <div id="my-panel-cross" class="check-panel-07 hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+            <div id="panel-close-cross" class="panel-close"> <p>About crossmedia </p></div>
+            <div class="panel-content"><p>
+In order to appeal to and sustain a young audience, who are accustomed to selecting, interchanging and swiping content simultaneously, we are creating a multiple platform strategy, in order to keep the flow going and the universe relevant. <br><br>
+
+Platform game: 
+A Fast-paced endless sidescroller where you: <br>
+- Fight against enemies <br>
+- Earn points in strength and speed <br>
+- Fuelled by sugar<br>
+- Switch run direction to collect more sugar <br>
+- The game shifts into an endless walker/talker<br>
+<br>
+Character-creation: <br>
+- Digital trading card game<br>
+- Online, turn-based, 1on1 ability battles<br>
+- Personal customizable avatar card (legend)<br>
+- Testing ideas / following trends <br>
+
+
+</p></div>
+
+        </div>   
+        <div class="row cross-row hidden-panel">
+            <div class="col-lg-12 text-center cross-header">
+                <h3>Antboy on other platforms</h3>
+            </div>
+            <div class="margin-cross">  
+                
+                
+                <div id="ipad-cross" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ip-circle">
+                    <a href="video/cross.mp4" class="html5lightbox" data-width="820" data-height="500"><img src="img/video_icon_cross.svg" alt="video icon" class="img-responsive video-icon-cross open"></a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 app-btn-wrapper">
+                   
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ip-circle">
+                        <a href="https://itunes.apple.com/dk/app/antboy/id920605671?l=da&mt=8" target="_blank">
+                            <img src="img/buttons/app_store.svg" alt="video icon" class="img-responsive app-btn animDown">
+                        </a> 
+                    </div>              
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ip-circle">
+                        <a href="https://play.google.com/store/apps/details?id=com.createassociates.antboyuniverse" target="_blank">
+                            <img src="img/buttons/google_play.svg" alt="video icon" class="img-responsive app-btn animExpandUp">
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div id="computer-cross" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ip-circle">
+                    <a href="video/cross.mp4" class="html5lightbox" data-width="820" data-height="500"><img src="img/video_icon_cross.svg" alt="video icon" class="img-responsive video-icon-cross open"></a>
+                </div>
+                
+                
+            <div class="col-xs-12 col-sm-7 col-md-4 col-lg-4 play-cards-wrap">
+                <img src="img/cards-right.png" alt="video icon" class="img-responsive play-card animLeft">
+            </div>
+            
+                
+                
+            </div>
+
+
+            
+        </div>
+    </section>
+
+<!---------------------------------------------------------- FACTS ---------------------------------------------------------->
+
+    <section class="section-8 container-fluid facts" id="sec08" style="height: 100%">
+        <span class="mob-anchor" id="mob-facts"></span>
+        <span class="anchor" id="facts"></span>
+        
+        <div id="my-panel-facts" class="my-panel check-panel-08 hidden-panel" >
+            <div id="panel-close-facts" class="panel-close"> <p>Facts </p></div>
+            <div class="panel-content"><p>Genre: Superhero action comedy<br>
+
+Format: series 52 x 11 min<br>
+ 
+Target Audience: 6-10 years old <br>
+
+Production budget: est. 8,2 mill EURO / 14.400 EUR /min. <br>
+
+Production Technique: 3D made to look like 2D 100 % digital <br>
+
+Timeline: <br>
+- Development: Dec 15 – March 16 <br>
+- PreProduction: April 16 – June 16 <br>
+- Production: July 16 – August 18<br>
+</p></div>   
+
+        </div>   
+        
+        <div class="facts-row">
+            <div class="col-lg-4">
+            
+               
+            
+            </div>
+
+            <div class="col-lg-8 cutout">
+                <img src="img/fact_sheet_CUTOUT.png" alt="Cutout characters" class="img-responsive animExpandUp">
+            </div>
+        </div>
+    </section>
+
+<!---------------------------------------------------------- THE ANTBOY IP ---------------------------------------------------------->
+
+    <section class="section-9 container-fluid" id="sec09" style="height: 60%">
+        <span class="mob-anchor" id="mob-ip"></span>
+        <span class="anchor" id="ip"></span>
+        <div id="my-panel-ip" class="check-panel-09 hidden-panel" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
+            <div id="panel-close-ip" class="panel-close"> <p>IP Antboy </p></div>
+            <div class="panel-content"><p>
+
+“Antboy: Animated” originates from an already well-established IP consisting of six books and three live action feature films. <br><br>
+
+The book series, written by the renowned author Kenneth Bøgh Andersen, have so far been published in Denmark, France, USA, Sweden, Norway and Germany. <br><br>
+
+The first two Antboy features, “Antboy” (2013) and “Antboy: Revenge of The Red Fury” (2014) achieved critical acclaim, box office succes and are circulated on major film festivals. They have both won the Danish Academy Award for best family picture and are distributed internationally to over 80 countries. <br><br>
+
+The third film has its theatrical release in February 2016. 
+</p></div>
+
+        </div>   
+        <div class="row ip-row">
+                
+            <div class="ip-margin">
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-lg-push-1 ip-wrap animRight">
+                
+                    <div class="ip-circle">
+                        <a href="http://www.dfi.dk/Nyheder/FILMupdate/2014/Januar/Robert-vindere-2014.aspx" target="_blank">
+                            <img src="img/buttons/robert_pris.png" alt="Vundet pris" class="img-responsive robert tilt">
+                        </a>
+                    </div>
+
+                    <div class="text-center">
+                        <h3 class="ip-header">Robert</h3>
+                        <p class="ip-comment">Winner of 2014's children and youth film was "Antboy"</p>
+                    </div>
+                
+                </div>
+                
+            
+            
+            
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ip-wrap animDown">
+                
+                    <div class="ip-circle">
+                        <a href="http://www.kino.dk/nyheder/2014/08/vinderne-af-svend-prisen-2014" target="_blank">
+                            <img src="img/buttons/svend_pris.png" alt="Vundet pris" class="img-responsive svend tilt">
+                        </a>
+                    </div>
+
+                    <div class="text-center">
+                        <h3 class="ip-header">Svend</h3>
+                        <p class="ip-comment">Most popular danish children's film in 2014 was "Antboy"</p>
+                    </div>
+                
+                </div>
+         
+            
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-lg-pull-1 ip-wrap animLeft">
+                
+                    <div class="ip-circle">
+                        <a href="http://zuluawards.dk/node/165" target="_blank">
+                            <img src="img/buttons/zulu_pris.png" alt="Vundet pris" class="img-responsive zulu tilt">
+                        </a>
+                    </div>
+
+                    <div class="text-center">
+                        <h3 class="ip-header">Zulu Awards</h3>
+                        <p class="ip-comment">Coolest movie to watch on the big screen in 2015 was "Antboy 2"</p>
+                    </div>
+                
+                </div>
+                
+         
+           </div>  
+        </div>
+    </section>
+
+<!----------------------------------------------------- THE ANTBOY FEATURE FILMS -------------------------------------------------->
+
+    <section id="sec10" class="section-10 container-fluid" >
+        <span class="mob-anchor" id="mob-map"></span>
+        <span class="anchor" id="map"></span>
+        <div class="row map-row">
+            <div class="hidden-xs col-sm-2 col-md-2 col-lg-3"></div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6 map-wrapper">
+                <img src="img/map/map_basic-green-01.svg" class="img-responsive map-basic map-layers open">
+                <img src="img/map/map_red_only-01.svg" class="img-responsive map-red map-layers displayNone">
+                <img src="img/map/map_purple_only-01.svg" class="img-responsive map-purple map-layers displayNone">
+                <img src="img/map/map_yellow_only-01.svg" class="img-responsive map-green map-layers displayNone">
+                <img src="img/map/map_black_only-01.svg" class="img-responsive map-black map-layers displayNone">
+                <img src="img/map/map_basic_overlay-01.svg" class="img-responsive map-overlay map-layers open">
+                
+            </div>
+            <div class="hidden-xs col-sm-2 col-md-2 col-lg-3"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12 text-center feature-header">    
+                <h3>Sold to more than 80 countries</h3>
+            </div>
+        </div>
+        
+        <div class="row map-menu-row">
+
+            <div class="col-lg-12">
+                
+                
+                <div id="red-btn" class="map-red-btn map-btns hidden-btn animRight"> <p>All rights or <br>TV + HV</p></div>
+                
+                <div id="green-btn" class="map-green-btn map-btns hidden-btn animRight"> <p>TV or TV included</p></div>
+             
+                <div id="black-btn" class="map-black-btn map-btns hidden-btn animRight"> <p>Producer´s reserved</p></div>
+                
+                <div id="purple-btn" class="map-purple-btn map-btns hidden-btn animRight"> <p>DVD or DVD included</p></div>
+                
+
+            </div>
+            
+            <div class="col-lg-8"></div>
+            
+
+            
+        </div>
+        
+    </section>
+<!---------------------------------------------------------- footer ---------------------------------------------------------->
+
+
+<footer>
+
+    <div id="contact" class="row footer-wrapper">
+    
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-lg-push-1 icon-wrap">
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><img src="img/buttons/map.svg" alt="maps icon" class="img-responsive icons tilt"></div>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 footer-comment">
+                    <p>Hauchsvej 17 <br> Frederiksberg, 1825 Danmark</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><img src="img/buttons/phone.svg" alt="phone icon" class="img-responsive icons tilt"></div>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 footer-comment footer-ekstra-margin">
+                    <p>+45 3634 0910</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="mailto:someone@example.com?Subject=Hello%20Nimbus" target="_top"><img src="img/buttons/mail.svg" alt="mail icon" class="img-responsive icons tilt"></a></div>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 footer-comment footer-ekstra-margin">
+                    <a href="mailto:live@nimbusfilm.dk?Subject=Hello%20Nimbus" target="_top"><p>live@nimbusfilm.dk</p></a>
+                </div>
+            </div>
+        </div>
+        
+        <div  class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            
+                <div class="row">
+                    <div class="col-lg-12 footer-comment">
+                        <p>PRODUCTION COMPANY<br>NIMBUS FILM ApS</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <a href="https://www.facebook.com/NimbusFilm/" target="_blank"><img src="img/buttons/fb.svg" alt="fb" class="img-responsive social-media-icons tilt"></a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 mid-social">
+                        <a href="https://twitter.com/nimbusfilm" target="_blank"><img src="img/buttons/twitter.svg" alt="twitter" class="img-responsive social-media-icons tilt"></a>
+                    </div>
+                    
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <a href="https://www.linkedin.com/company/nimbus-film" target="_blank"><img src="img/buttons/linkedin.svg" alt="linkedin" class="img-responsive social-media-icons tilt"></a>
+                    </div>
+                
+                </div>
+                
+                
+            </div>
+            
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                
+                <img src="img/buttons/nimbus_logo_white.svg" alt="nimbus logo" class="img-responsive logo-white">
+            
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <!-- Alle scripts inkluderes nedenfor -->
+    <script src="js/js.js"></script>
+    <script type="text/javascript" src="html5lightbox/jquery.js"></script>
+    <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    <script src="js/characters.js"></script>   
+    <script src="js/panel.js"></script> 
+
+    <script src="js/map.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollto.js"></script>
+    <script type="text/javascript" src="js/jstween-1.2.min.js"></script>
+
+
+
+
+    <!--    rotate card-->
+    <script type="text/javascript">
+        $().ready(function(){
+            $('[rel="tooltip"]').tooltip();
+
+        });
+
+        function rotateCard(btn){
+            var $card = $(btn).closest('.card-container');
+            console.log($card);
+            if($card.hasClass('hover')){
+                $card.removeClass('hover');
+            } else {
+                $card.addClass('hover');
+            }
+        }
+    </script>
+
+    <!--    smooth scroll-->
+    <script type="text/javascript">
+            $('a').click(function(e){
+            $('html,body').scrollTo('#the-show', this.hash);
+            e.preventDefault();
+            });
+    </script>
+
+
+
+
+  </body>
+</html>
