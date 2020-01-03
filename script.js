@@ -114,6 +114,7 @@ document.querySelectorAll("[x-filter]").forEach((e) => {
     }
 })
 
+window.__forceSmoothScrollPolyfill__ = true;
 const distanceToTop = el => Math.floor(el.getBoundingClientRect().top);
 const anchor = window.location.hash.replace("#", "");
 const anchorElement = document.querySelector("[x-anchor='"+anchor+"']")
