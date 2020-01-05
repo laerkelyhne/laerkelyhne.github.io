@@ -97,10 +97,6 @@ html, body{
     flex-shrink: 0;
 }
 
-.portfolio-grid div img {
-    z-index: 1;
-}
-
 .portfolio-grid div img:hover, .portfolio-grid .animation-card:hover {
     transition: all 0.2s ease-in-out;
     transform: scale(1.1);
