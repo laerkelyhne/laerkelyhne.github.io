@@ -86,6 +86,9 @@ var animation = bodymovin.loadAnimation({
   path: 'scripts/hopper-logo-car.json'
 })
 
+/**
+ * Content filters
+ */
 document.querySelectorAll("[x-filter]").forEach((e) => {
     const filter = e.getAttribute("x-filter")
     e.onclick = () => {
@@ -114,11 +117,31 @@ document.querySelectorAll("[x-filter]").forEach((e) => {
     }
 })
 
-window.__forceSmoothScrollPolyfill__ = true;
-const distanceToTop = el => Math.floor(el.getBoundingClientRect().top);
-const anchor = window.location.hash.replace("#", "");
-const anchorElement = document.querySelector("[x-anchor='"+anchor+"']")
-if(anchorElement) anchorElement.scrollIntoView({behavior: "smooth", block: "center"})
+/**
+ * Page section indicators
+ */
+const indicators = Array.from(document.querySelectorAll("[x-indicator]"));
+const indicatedSections = indicators.map(e => document.getElementById(e.getAttribute("x-indicator")))
 
+indicators.forEach((e) => {
+    e.onclick = () => {
+        const id = e.getAttribute("x-indicator");
+        const anchor = document.getElementById(id);
+        anchor.scrollIntoView({ behavior: "smooth" });
+    }
+});
 
+function updateIndicator() {
+    const scrolledBy = indicatedSections.filter(e => {
+        return (document.body.scrollTop - (e.offsetTop - 10)) > 0
+    });
+    const section = scrolledBy[scrolledBy.length - 1];
+    const i = indicatedSections.indexOf(section || indicatedSections[0]);
+    indicators.forEach(e => e.classList.remove("current-section"))
+    indicators[i].classList.add("current-section")
+}
 
+if(indicators.length > 0) {
+    updateIndicator();
+    document.body.addEventListener("scroll", updateIndicator, false);
+}
